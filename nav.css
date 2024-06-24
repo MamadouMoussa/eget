@@ -1,0 +1,166 @@
+/* Reset CSS */
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     
+}
+
+/* Global Styles */
+body {
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+     background-color: #007bff;
+     color: #fff;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 10px;
+}
+
+.navbar #logo img {
+     width: 100px;
+     border-radius: 5px;
+     opacity: 70%;
+}
+
+.menu {
+     list-style: none;
+     display: flex;
+     z-index: 3;
+}
+
+.menu li {
+     position: relative;
+}
+
+.menu li a {
+     text-decoration: none;
+     color: inherit;
+     padding: 10px 15px;
+     display: flex;
+     align-items: center;
+     font-size: 1rem;
+}
+
+.menu li a:hover {
+     background-color: #081d1f;
+}
+
+.menu li ul.submenu {
+     display: none;
+     position: absolute;
+     top: 100%;
+     left: 0;
+     background-color: #081d1f;
+}
+
+.menu li:hover ul.submenu {
+     display: block;
+}
+
+.menu li ul.submenu li {
+     width: 200px;
+}
+
+.sub-menu-2 {
+     display: none;
+     position: absolute;
+     top: 100%;
+     left: 0;
+     background-color: #081d1f;
+}
+
+.menu li.hover-me:hover .sub-menu-2 {
+     display: block;
+}
+
+.sub-menu-2 ul {
+     list-style: none;
+}
+
+.sub-menu-2 ul li {
+     padding: 8px 10px;
+}
+
+.burger-menu {
+     display: none;
+}
+
+.request-button {
+     background-color: #e65100;
+     color: #fff;
+     padding: 8px 10px;
+     border: none;
+     border-radius: 5px;
+     text-decoration: none;
+     margin-right: 20px;
+}
+
+.request-button:hover {
+     background-color: #ff7d47;
+}
+
+
+/* Media Query pour les petits écrans */
+@media screen and (max-width: 768px) {
+     .menu {
+          display: none;
+          flex-direction: column;
+          width: 100%;
+          position: absolute;
+          top: 60px;
+          left: 0;
+          background-color: #333;
+     }
+
+     .menu li {
+          width: 100%;
+          text-align: center;
+     }
+
+     .burger-menu {
+          display: block;
+          cursor: pointer;
+     }
+
+     .burger-menu .line {
+          width: 25px;
+          height: 3px;
+          background-color: #fff;
+          margin: 5px;
+          transition: all 0.3s ease;
+     }
+
+     .menu.active {
+          display: flex;
+     }
+
+     .menu.active+.burger-menu .line:nth-child(1) {
+          transform: rotate(-45deg) translate(-5px, 5px);
+     }
+
+     .menu.active+.burger-menu .line:nth-child(2) {
+          opacity: 0;
+     }
+
+     .menu.active+.burger-menu .line:nth-child(3) {
+          transform: rotate(45deg) translate(-5px, -5px);
+     }
+}
+
+/* Icones */
+.fa-angle-right {
+     float: right;
+     color: #fff;
+     font-size: 0.8rem;
+     margin-top: 8px;
+}
+
+.fa,
+.fas {
+     padding: 4px;
+     font-size: 0.8rem;
+}

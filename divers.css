@@ -1,0 +1,59 @@
+body {
+     font-family: Arial, sans-serif;
+     margin: 30px;
+     padding: 0;
+     color:blue;
+     text-align: justify;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+     text-align: center;
+}
+
+h2 {
+     color: #333;
+     /* Couleur du texte */
+     border-bottom: 1px solid #ccc;
+     /* Bordure basse */
+     padding-bottom: 5px;
+     margin-bottom: 20px;
+     /* Marge basse */
+}
+
+p {
+     line-height: 1.5;
+     padding-bottom: 10px;
+}
+
+/* Style pour les sections spécifiques */
+
+#formations {
+     background-color: #f2f2f2;
+     /* Couleur de fond */
+     padding: 10px;
+}
+
+#apprentissage {
+     background-color: #e6f7ff;
+     /* Couleur de fond */
+     padding: 10px;
+}
+
+#stage {
+     background-color: #f0f0f0;
+     /* Couleur de fond */
+     padding: 10px;
+}
+
+#prestation {
+     background-color: #eaf2d3;
+     /* Couleur de fond */
+     padding: 10px;
+}
+
+#voyage {
+     background-color: #ffe6cc;
+     /* Couleur de fond */
+     padding: 10px;
+}

@@ -1,0 +1,35 @@
+body {
+     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     margin: 0;
+     padding: 20px;
+     line-height: 1.6;
+     text-align: justify;
+     font-size: small;
+}
+
+h1,
+h2 {
+     color: #333;
+}
+
+h1 {
+     font-size: 24px;
+}
+
+h2 {
+     font-size: 20px;
+     margin-top: 20px;
+}
+
+p {
+     color: #666;
+}
+
+a {
+     color: blue;
+     text-decoration: none;
+}
+
+a:hover {
+     text-decoration: underline;
+}

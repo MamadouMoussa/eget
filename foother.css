@@ -1,0 +1,94 @@
+
+
+/*********************************** Pied de page *******************************************/
+footer {
+     background-color: #007bff;
+     /* Couleur de fond du pied de page */
+     padding: 25px;
+     /* Espacement interne du pied de page */
+     display: flex;
+     /* Utilisation de flexbox pour aligner les blocs horizontalement */
+     justify-content: space-between;
+     /* Répartition égale des blocs */
+     color: #fff;
+}
+
+/* Styles pour chaque bloc du pied de page */
+
+/* Bloc des raccourcis */
+.footer-shortcuts {
+     flex: 0.8;
+     /* Prend autant d'espace que possible */
+     margin-right: 15px;
+     /* Marge à droite pour séparer des autres blocs */
+     color: #fff;
+}
+
+/* Bloc des réseaux sociaux */
+.footer-social {
+     flex: 0.8;
+     /* Prend autant d'espace que possible */
+     margin-right: 15px;
+     /* Marge à droite pour séparer des autres blocs */
+}
+
+/* Styles pour les icônes des réseaux sociaux */
+.footer-social a i {
+     margin-right: 5px;
+     /* Espacement entre l'icône et le texte */
+     color: #fff;
+}
+
+/* Bloc des partenaires */
+.footer-partners {
+     flex: 0.8;
+     /* Prend autant d'espace que possible */
+     margin-right: 15px;
+     /* Marge à droite pour séparer des autres blocs */
+}
+
+/* Bloc des droits et sécurité */
+.footer-legal {
+     flex: 0.8;
+     /* Prend autant d'espace que possible */
+}
+
+/* Styles pour les liens dans chaque bloc */
+.footer-shortcuts ul li a,
+.footer-social ul li a,
+.footer-partners ul li a,
+.footer-legal p a {
+     color: #333;
+     /* Couleur du texte */
+     text-decoration: none;
+     /* Pas de soulignement */
+     color: #fff;
+}
+
+/* Styles pour les titres de chaque bloc */
+.footer-shortcuts h3,
+.footer-social h3,
+.footer-partners h3,
+.footer-legal h3 {
+     margin-bottom: 10px;
+     /* Marge en bas pour séparer des contenus */
+     font-size: 1.2em;
+     font-weight:bolder;
+     color: #555;
+     /* Couleur du texte */
+     color: yellow;
+}
+
+/* Styles spécifiques pour les liens des réseaux sociaux */
+.footer-social ul li a {
+     display: flex;
+     /* Utilisation de flexbox pour aligner l'icône et le texte verticalement */
+     align-items: center;
+     /* Alignement vertical */
+}
+
+/* Styles spécifiques pour le texte des liens des réseaux sociaux */
+.footer-social ul li a {
+          color: #fff;
+     /* Couleur légèrement plus sombre pour le texte */
+}

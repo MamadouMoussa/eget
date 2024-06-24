@@ -1,0 +1,107 @@
+body {
+     margin: 0;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/************************************Partie A propos**************************************/
+
+.container {
+     padding: 10px;
+     margin-left: 15px;
+     display: flex;
+     overflow: scroll;
+}
+
+.sub-container-1 {
+     width: 75%;
+     overflow-wrap: break-word;
+}
+
+.apropos {
+     padding-right: 25px;
+     width: 97%;
+     font-weight: bold;
+     background-color: blue;
+     border-top-right-radius: 25px;
+}
+
+.apropos ul {
+     list-style: none;
+     padding: 10px 0 10px 20px ;
+}
+
+.apropos ul li {
+     margin-bottom: 10px;
+}
+
+.apropos ul li a {
+     text-decoration: none;
+     color:#fff;
+}
+
+.apropos ul li:hover a {
+     background-color: #fff;
+     padding: 3px;
+     color: blue;
+     border-radius: 3px;
+     font-weight: bold;
+}
+
+.detail-apropos {
+     padding: 10px 30px 10px 10px;
+     text-align: justify;
+}
+
+.detail-apropos-h2{
+     background-color: blue;
+     color: #fff;
+     padding: 5px;
+     border-right: rgb(19, 245, 19) solid 1rem;
+     border-top-right-radius: 50px;
+     border-bottom-right-radius: 50px;
+}
+
+.sub-container-2 {
+     width: 24%;
+     margin: 10px;
+     padding: 20px;
+     background-color:blue;
+     overflow-wrap: break-word;
+     border-top-left-radius: 25px;
+}
+
+.sub-container-2 ul li {
+     text-align: justify;
+     margin-bottom: 10px;
+     color: #fff;
+     list-style: none;
+}
+
+.sub-container-2 ul li:hover a {
+     color: blue;
+     background-color: #fff;
+     padding: 3px;
+     border-radius: 3px;
+     font-weight: bold;
+    
+}
+
+.sub-container-2 ul li a {
+     text-decoration: none;
+     color: #fff;
+}
+
+.domaine-1,
+.domaine-2 {
+     
+     border-top-left-radius: 25px;
+}
+
+p{
+     padding: 15px 0 15px 0;
+}
+
+h3, li{
+     font-weight: bold;
+     margin-top: 10px;
+}
